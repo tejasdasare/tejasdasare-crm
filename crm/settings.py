@@ -147,12 +147,3 @@ EMAIL_HOST_PASSWORD =  'T@t@123456'
 
 #S3 Bucket Config
 
-AWS_ACCESS_KEY_ID = 'AKIASGA2R2JNT7H4UGMV'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'dasaretejas-crm1-bucket'
-
-AWS_S3_FILE_OVERWRITE = False
-AWS_DEFAULT_ACL = None
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-
